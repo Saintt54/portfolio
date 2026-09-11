@@ -186,19 +186,6 @@ img {
     object-fit: cover;
 }
 
-.photo-fallback {
-    position: absolute;
-    inset: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 16px;
-    font-size: 0.8rem;
-    color: var(--ink-muted);
-    line-height: 1.5;
-}
-
 .photo-caption {
     margin-top: 10px;
     font-size: 0.72rem;
@@ -641,18 +628,7 @@ img {
         <div class="side-photo-frame intro-reveal" style="animation-delay: 0.15s;">
 
             <div class="photo-box">
-
-                <!-- รูปจากโฟลเดอร์ images -->
-                <img
-                    src="images/profile.jpg"
-                    alt="พิทยุตม์ พอดี"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                >
-
-                <div class="photo-fallback">
-                    ไม่พบรูป images/profile.jpg
-                </div>
-
+                <img src="images/profile.jpg" alt="พิทยุตม์ พอดี">
             </div>
 
             <div class="photo-caption">
@@ -830,10 +806,7 @@ img {
                     <div class="tape"></div>
 
                     <div class="project-image">
-                        <img
-                            src="images/poster.jpg"
-                            alt="โปสเตอร์กิจกรรมโรงเรียน"
-                        >
+                        <img src="images/poster.jpg" alt="โปสเตอร์กิจกรรมโรงเรียน">
                     </div>
 
                     <div class="project-info">
@@ -862,10 +835,7 @@ img {
                     <div class="tape"></div>
 
                     <div class="project-image">
-                        <img
-                            src="images/video.jpg"
-                            alt="คลิปวิดีโอสั้น"
-                        >
+                        <img src="images/video.jpg" alt="คลิปวิดีโอสั้น">
                     </div>
 
                     <div class="project-info">
@@ -894,10 +864,7 @@ img {
                     <div class="tape"></div>
 
                     <div class="project-image">
-                        <img
-                            src="images/photography.jpg"
-                            alt="ภาพถ่ายกิจกรรม"
-                        >
+                        <img src="images/photography.jpg" alt="ภาพถ่ายกิจกรรม">
                     </div>
 
                     <div class="project-info">
